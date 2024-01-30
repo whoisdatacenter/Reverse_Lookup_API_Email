@@ -1,0 +1,17 @@
+// C#
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
+
+class Program {
+static async Task Main() {
+string apiKey = "place_your_api_key_here";
+string emailAddress = "example@email.com"; // Replace with the email address you want to look up
+string apiUrl = $" https://api.whoisdatacenter.com/v1/search?apikey={apiKey}&email={emailAddress}";
+
+using (HttpClient client = new HttpClient()) {
+string response = await client.GetStringAsync(apiUrl);
+Console.WriteLine(response);
+}
+}
+}
