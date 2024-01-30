@@ -109,6 +109,7 @@ Secure and Reliable: Prioritizing your data's security and API's uptime.
 <br/>
 
 **🌟 Join the Community of Developers who are already benefiting from this offer!**
+---
 
 Terms and conditions apply. Offer valid for a limited time.
 
