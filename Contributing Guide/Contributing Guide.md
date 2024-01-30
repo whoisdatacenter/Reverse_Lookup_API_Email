@@ -1,7 +1,7 @@
-**Contributing to the Domain-Reverse-Lookup-API Project**
+# Contributing to the Domain-Reverse-Lookup-API Project
 Thank you for your interest in contributing to our Reverse-Lookup-API-Email project! This project aims to create a comprehensive and accessible list of emails of domains available through our API. Contributions from the community are essential to keep our database rich, current, and useful for everyone.
 
-**How to Contribute**
+# How to Contribute
 Familiarize Yourself with the Project: Before contributing, please take some time to go through the existing list of domains in our repository. This will give you an idea of what has already been added and what might still be needed.
 
 ---
@@ -47,4 +47,4 @@ To ensure a fair and reliable service for everyone, please be aware that we have
 Here's what you need to know:
 - After a certain number of hits, your API requests may be temporarily blocked.
 - This is a protective measure to prevent abuse and maintain service quality.
-- To continue using the SERP tool, we recommend waiting for a bit before making additional requests.
+
