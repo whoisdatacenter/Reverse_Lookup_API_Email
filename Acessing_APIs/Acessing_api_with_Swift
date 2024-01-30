@@ -1,0 +1,14 @@
+// Swift
+import Foundation
+
+let apiKey = "place_your_api_key_here"
+let emailAddress = "example@email.com" // Replace with the email address you want to look up
+let apiUrl = URL(string: "https://api.whoisdatacenter.com/v1/search?apikey=\(apiKey)&email=\(emailAddress)")!
+
+do {
+let data = try Data(contentsOf: apiUrl)
+let result = try JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+print(result)
+} catch {
+print("Error: \(error)")
+}
