@@ -3,7 +3,7 @@ Introducing the Email Reverse Lookup API, a cutting-edge solution designed for e
 
 
 # Introduction
-Welcome to the Domain Information API repository! This API offers comprehensive domain data, which includes detailed domain  contact_no.
+Welcome to the Reverse-Lookup-API-Email  repository! This API offers comprehensive domain data, which includes detailed domain  emails
 
 # Key Features:
 
@@ -30,7 +30,8 @@ Welcome to the Domain Information API repository! This API offers comprehensive 
     <br />
 
 
-# Email Lookup API Endpoint:
+# Email Lookup API Endpoint: --- 
+
 
 ```
 POST/GET https://api.whoisdatacenter.com/v1/email
