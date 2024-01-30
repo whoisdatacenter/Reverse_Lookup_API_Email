@@ -30,7 +30,7 @@ Welcome to the Reverse-Lookup-API-Email  repository! This API offers comprehensi
     <br />
 
 
-# Email Lookup API Endpoint: --- 
+# Email Lookup API Endpoint: 
 
 
 ```
