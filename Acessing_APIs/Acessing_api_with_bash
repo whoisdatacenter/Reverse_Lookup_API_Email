@@ -1,0 +1,8 @@
+#!/bin/bash
+
+api_key='place_your_api_key_here'
+email='example@example.com' # Replace with the email address you want to look up
+api_url="https://api.whoisdatacenter.com/v1/email?apiKey=${api_key}&email=${email}"
+
+response=$(curl -s $api_url)
+echo $response
