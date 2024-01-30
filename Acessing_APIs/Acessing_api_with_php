@@ -1,0 +1,9 @@
+# PHP
+$apiKey = 'place_your_api_key_here';
+$emailAddress = 'example@email.com'; // Replace with the email address you want to look up
+$apiUrl = "https://api.whoisdatacenter.com/v1/search?apikey={$apiKey}&email={$emailAddress}";
+
+$response = file_get_contents($apiUrl);
+$data = json_decode($response, true);
+print_r($data);
+?>
