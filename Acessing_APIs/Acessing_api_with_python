@@ -3,7 +3,7 @@ import requests
 
 api_key = 'place_your_api_key_here'
 email_address = 'example@email.com' # Replace with the email address you want to look up
-api_url = 'https://api.whoisdatacenter.com/v1/email?apiKey={api_key}&email={email_address}'
+api_url = f'https://api.whoisdatacenter.com/v1/email?apiKey={api_key}&email={email_address}'
 
 response = requests.get(api_url)
 data = response.json()
