@@ -5,7 +5,7 @@ Introducing the Email Reverse Lookup API, a cutting-edge solution designed for e
 
 
 # Introduction
-Welcome to the Reverse-Lookup-API-Email  repository! This API offers comprehensive domain data, which includes detailed domain  emails
+**Welcome to the Reverse-Lookup-API-Email  repository! This API offers comprehensive domain data, which includes detailed domain  emails**
 
 # Key Features:
 
